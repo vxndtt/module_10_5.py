@@ -26,7 +26,6 @@ time_start2 = datetime.now()
 
 if __name__ == '__main__':
 
-
     process1 = multiprocessing.Process(target=read_info, args='file 1.txt')
     process1.start()
 
